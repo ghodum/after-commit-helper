@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'after_commit_helper'
-  s.version     = '0.0.1'
-  s.date        = '2015-08-11'
+  s.version     = '0.0.2'
+  s.date        = '2015-11-22'
   s.summary     = 'AfterCommitHelper'
   s.description = 'Conditionally execute after_commit for ActiveRecord'
   s.authors     = ['Gregory Hodum']
