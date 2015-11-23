@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 1) do
 end
 
 class Test < ActiveRecord::Base
-  include AfterCommitHelper
+  include AfterCommitHelper::Concern
 
   def test_values
     @test_values ||= []
